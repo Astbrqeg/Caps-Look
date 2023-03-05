@@ -1,0 +1,13 @@
+.navbar {
+  background-color: #2e2d44;
+  height: 6vh;
+  display: flex;
+  width: 100vw;
+  position: fixed;
+  z-index: 999;
+
+  .capslooklogo {
+    height: 90%;
+    margin-left: 37vw;
+  }
+}

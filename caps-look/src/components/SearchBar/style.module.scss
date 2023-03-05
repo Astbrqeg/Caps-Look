@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.searchbar {
+  border-radius: 7vh;
+  background-color: white;
+  border: rgb(244, 237, 237);
+  height: 2vw;
+  width: 30vw;
+  font-family: 'Jost';
+  padding: 5px 5px 5px 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: rgb(8, 7, 7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// .srchico {
+//   border: none;
+//   border-radius: 0px 7vh 7vh 0px;
+//   cursor: pointer;
+//   color: rgb(0, 0, 0);
+//   background-color: rgb(244, 237, 237);
+//   transform: translateX(0px);
+//   max-height: 2vw;
+//   max-width: 5vw;
+//   font-family: 'Jost';
+// }

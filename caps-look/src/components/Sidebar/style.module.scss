@@ -1,0 +1,40 @@
+.sidebar {
+  background-color: #2e2d44;
+  height: auto;
+  width: 12vw;
+  height: 94vh;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 6vh;
+
+  .link {
+    color: azure;
+    font-size: 18px;
+    padding: 14px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      padding-left: 10px;
+    }
+  }
+
+  .link:focus {
+    color: rgb(209, 86, 86);
+  }
+}
+
+.cutter {
+  background-color: rgb(209, 86, 86);
+  border-color: #2e2d44;
+  height: 4px;
+  width: 15vh;
+  margin-top: auto;
+}

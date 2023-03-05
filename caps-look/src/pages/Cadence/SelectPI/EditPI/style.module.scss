@@ -1,0 +1,14 @@
+.EditContainer {
+  height: 50px;
+  width: 50px;
+  background: #8a84aa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  margin-left: 120px;
+  .innerIcons {
+    height: 100px;
+    width: 100px;
+  }
+}

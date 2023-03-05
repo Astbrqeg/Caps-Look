@@ -1,0 +1,94 @@
+.innerContainer {
+  width: 90%;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3vw;
+  padding: 20px;
+  padding-bottom: 50px;
+  margin: 20px;
+
+  button:hover {
+    background-color: #8684bb;
+  }
+  .arrowDown {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    margin-left: 30px;
+    margin-top: -15px;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .detailsPI {
+    margin-top: 15px;
+    width: 250px;
+    height: 30px;
+    color: #210f61;
+    border-radius: 5px;
+  }
+  #itertion {
+    margin-top: -30px;
+    margin-left: 300px;
+  }
+  #dateItertion {
+    margin-top: -30px;
+    margin-left: 600px;
+  }
+}
+button {
+  width: 180px;
+  height: 30px;
+  background-color: #595786;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0ch;
+  border-color: #595786;
+}
+.mileStone {
+  margin-left: 660px;
+  margin-top: 120px;
+  visibility: hidden;
+}
+.PI {
+  margin-left: 660px;
+  margin-top: -100px;
+  visibility: hidden;
+}
+.iteration {
+  margin-left: 660px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  visibility: hidden;
+}
+.exportbutton {
+  margin-left: 600px;
+  border-top: 50px;
+}
+.mileStoneCir {
+  height: 10px;
+  width: 10px;
+  background-color: #210f61;
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-block;
+}
+.ms {
+  color: #210f61;
+  margin-left: -800px;
+  margin-top: 80px;
+}
+.numIteration {
+  margin-left: -600px;
+  font-size: large;
+  color: #210f61;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.flex {
+  display: flex;
+}

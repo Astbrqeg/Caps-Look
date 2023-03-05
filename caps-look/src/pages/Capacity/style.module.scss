@@ -1,0 +1,28 @@
+.containerSelector {
+  width: 40%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 18px;
+  padding-top: 5%;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  direction: row;
+  width: 50%;
+  height: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+}
+.pi {
+  padding-right: 10%;
+  padding-left: 10%;
+  position: static;
+}
+.dropdown {
+  display: flex;
+  direction: row;
+  margin: 10px;
+}

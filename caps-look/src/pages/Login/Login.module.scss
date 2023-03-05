@@ -1,0 +1,45 @@
+.passwordField input {
+  padding-left: 40px;
+  width: 238px;
+}
+.LoginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('Group 1.png');
+  background-size: 1060px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 94vh;
+
+  .LoginFeilds {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center; //vertical in column mode of the flex direction
+    align-items: center; //horizontal in column mode of the flex direction
+    width: fit-content;
+    height: 100%;
+    padding-top: 15rem; //movement steps per root (body) font size
+  }
+}
+.remember {
+  margin-bottom: 150px;
+  color: aliceblue;
+}
+.LIButton {
+  width: 100%;
+  height: 30px;
+  background-color: #595786 !important;
+}
+
+.passwordI {
+  display: inline;
+}
+
+.Error_message {
+  background-color: #e1cfe7;
+  border: solid #8a427a;
+  border-width: 0 0 0 6px;
+  color: #2c1e30;
+}
