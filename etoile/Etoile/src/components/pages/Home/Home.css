@@ -1,0 +1,440 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap";
+
+.HomePage {
+    background: #B0C9EA;
+}
+
+.section-title {
+    font-size: 4rem;
+    font-weight: 240;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+/*====================================*/
+/* Start of Introduction Section     */
+/*==================================*/
+
+.IntroduceContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.IntroduceContainer p {
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-size: 300%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.IntroduceContainer .IntroduceLogo img {
+    background-size: cover;
+    border-radius: 10px;
+    size: 10%;
+    width: 450px;
+    height: 300px;
+    margin-top: 1rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+/*====================================*/
+/* End of Introduction Section     */
+/*==================================*/
+
+/*====================================*/
+/* Start of Best Sellers Section     */
+/*==================================*/
+.BestSellersSection {
+    flex-direction: column;
+    text-align: center;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    /* padding: 200px 0; */
+}
+
+.BestSellersSection .BestSellersTop {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.BestSellersSection .BestSeller-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.BestSellersSection .BestSeller-bottom-last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.BestSellersSection .BestSeller-bottom .BestSellers-item {
+    margin: 2.5%;
+    flex-basis: 25%;
+    margin: 2%;
+    box-shadow: #485563;
+}
+
+.BestSellersSection .BestSellers-item {
+    flex-basis: 80%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 10px 5%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.3s ease transform;
+}
+
+.BestSellersSection .BestSellers-item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.BestSellersSection .BestSellers-item:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.BestSellersSection .BestSellers-item img {
+    border-radius: 10px;
+    box-shadow: #485563;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 1px;
+    letter-spacing: 0.5rem;
+}
+
+.BestSellersSection .link-btn {
+    font-size: 300;
+    font-weight: 100;
+    margin-bottom: 5px;
+    letter-spacing: 0.2rem;
+    color: black;
+    align-items: center;
+}
+
+/*====================================*/
+/* End of Best Sellers Section       */
+/*==================================*/
+
+/*====================================*/
+/* Start of Catigories Section       */
+/*==================================*/
+
+.CatigoriesSection {
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.CatigoriesSection .CatigoriesTop {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.CatigoriesSection .CatigoriesBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.CatigoriesSection .CatigoriesBottom .Catigoryitem {
+    flex-basis: 45%;
+    margin: 2.5%;
+}
+
+.CatigoriesSection .Catigoryitem {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 10px 5%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.3s ease transform;
+}
+
+.CatigoriesSection .Catigoryitem::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.CatigoriesSection .Catigoryitem:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.CatigoriesSection .Catigoryitem h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.CatigoriesSection .Catigoryitem p {
+    color: white;
+    text-align: left;
+}
+
+.CatigoriesSection #HairCare {
+    background-image: url(./haircare-haircare.jpg);
+    background-size: cover;
+}
+
+.CatigoriesSection #SkinCare {
+    background-image: url(./how-to-choose-the-right-skincare-products-for-your-skin-typemobilehome.jpg);
+    background-size: cover;
+}
+
+.CatigoriesSection #MakeUp {
+    background-image: url(./istockphoto-1320345717-612x612.jpg);
+    background-size: cover;
+}
+
+.CatigoriesSection #Fragrance {
+    background-image: url(./0525-perfuem.jpg);
+    background-size: cover;
+}
+
+.CatigoriesSection #ToolsBrushes {
+    background-image: url(./group-of-zero-waste-makeup-brushes-royalty-free-image-1657467939.jpg);
+    background-size: cover;
+}
+
+.CatigoriesSection #BathBody {
+    background-image: url(./kitdsdiykits_03_1024x.jpg);
+    background-size: cover;
+}
+
+.CatigoriesSection .CatigoriesBottom .icon {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+/*====================================*/
+/* End of Catigories Section       */
+/*==================================*/
+
+/*====================================*/
+/* Start of Reviews Section       */
+/*==================================*/
+
+.Reviews {
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.Reviews .rate-top {
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.Reviews .rate-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.Reviews .rate-item {
+    flex-basis: 80%;
+    display: grid;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 10px 5%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 80%;
+    width: 100%;
+    transition: 0.3s ease transform;
+    text-align: center;
+}
+
+.Reviews .rate-item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #D2B7B7 0%, #485563 80%);
+    opacity: 0.6;
+    z-index: -1;
+    display: flex;
+}
+
+.Reviews .rate-item:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.Reviews .rate-item h2 {
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    align-items: left;
+    font-size: 180%;
+}
+
+.Reviews .rate-item h3 {
+    color: white;
+    font-weight: 80;
+    align-items: left;
+    font-size: 80%;
+}
+
+.Reviews .rate-item p {
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    align-items: center;
+    font-size: 250%;
+}
+
+.Reviews .ReviewContainer .cant-Review {
+    display: grid;
+    font-size: 200%;
+    color: white;
+    align-items: center;
+}
+
+.Reviews .ReviewContainer .cant-Review h2 {
+    color: black;
+    font-size: 300;
+    font-weight: 300;
+    align-items: center;
+}
+
+.Reviews .ReviewContainer .cant-Review h3 {
+    color: white;
+    font-weight: 100;
+    align-items: center;
+}
+
+/*====================================*/
+/* End of Catigories Section       */
+/*==================================*/
+
+/*====================================*/
+/* Start of Reviews Section       */
+/*==================================*/
+
+.contact-us {
+    background-color: #748BAA;
+    max-width: 1500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.contact-us .contact-container .info-location {
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us .contact-container .info-location h2 {
+    font-size: 200%;
+    text-align: center;
+}
+
+.contact-us img {
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: #485563;
+    max-width: 500px;
+    max-height: 500px;
+    margin-bottom: 1px;
+}
+
+/* Keyframes */
+@keyframes hamburger_puls {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1.4);
+    }
+}
+
+@keyframes text_reveal_box {
+    50% {
+        width: 100%;
+        left: 0;
+    }
+
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+
+@keyframes text_reveal {
+    100% {
+        color: white;
+    }
+}
+
+@keyframes text_reveal_name {
+    100% {
+        color: rgb(31, 7, 249);
+        font-weight: 500;
+    }
+}

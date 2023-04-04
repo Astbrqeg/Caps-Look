@@ -1,0 +1,93 @@
+.rev {
+    background-color: #B0C9EA;
+}
+
+.searchbar {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: 0px;
+    z-index: 2;
+    width: auto;
+}
+
+.srchico {
+    position: absolute;
+    top: 2px;
+    margin-left: 2px;
+    border-radius: 5px;
+    right: 0px;
+    z-index: 2;
+    border: none;
+    border-radius: 4px;
+    top: 2px;
+    height: 45px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    transform: translateX(2px);
+}
+
+.reviews {
+    left: 30px;
+    width: 500px;
+    height: 150px;
+}
+
+
+.rate-item {
+    flex-basis: 80%;
+    display: grid;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 10px 5%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 50%;
+    width: 45%;
+    transition: 0.3s ease transform;
+    text-align: center;
+}
+
+.rate-item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #D2B7B7 0%, #485563 80%);
+    opacity: 0.6;
+    z-index: -1;
+    display: flex;
+}
+
+.rate-item:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.rate-item h2 {
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    align-items: left;
+    font-size: 180%;
+}
+
+.rate-item h3 {
+    color: white;
+    font-weight: 80;
+    align-items: left;
+    font-size: 80%;
+}
+
+.rate-item p {
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    align-items: center;
+    font-size: 200%;
+}

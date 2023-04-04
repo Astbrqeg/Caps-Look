@@ -1,0 +1,79 @@
+.wrapper {
+    max-width: 70vw;
+    margin: 50px auto;
+    background-color: #FEF4E5;
+}
+
+.wrapper h1 {
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "jsMath-cmr10";
+}
+
+.project {
+    display: flex;
+}
+
+.pay {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 400px;
+    background-color: #FFFFFF;
+    margin-left: 300px;
+    border-radius: 50px;
+    text-decoration: #FDD496;
+    font-family: "jsMath-cmr10";
+}
+
+.total {
+    margin-left: 300px;
+    font-family: "jsMath-cmr10";
+}
+
+.emptyyy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.oh67 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.underdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.giva {
+    background-color: #FDD496;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.papg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping {
+    background-color: #FDD496;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

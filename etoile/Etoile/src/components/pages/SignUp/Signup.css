@@ -1,0 +1,96 @@
+    .submitSignUp {
+      margin-left: 520px;
+      background-color: #FDD496;
+      color: black;
+      border-radius: 15px;
+      width: 450px;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 0.2%;
+    }
+
+    input {
+      font-size: 20px;
+    }
+
+    .user {
+      width: 350px;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      right: 50%;
+      margin: 0.5rem 0;
+      padding: 1rem;
+      border: none;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: black;
+      height: 40px;
+      font-size: 20px;
+      margin-left: 38%;
+      margin-top: 1%;
+      margin-bottom: 0;
+    }
+
+    .emails {
+      width: 350px;
+      text-align: center;
+      left: 50%;
+
+      right: 50%;
+      margin: 0.5rem 0;
+      padding: 1rem;
+      border: none;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: black;
+      height: 40px;
+      font-size: 20px;
+      margin-left: 38%;
+      margin-top: 1%;
+      margin-bottom: 2px;
+    }
+
+    .passwords {
+      width: 350px;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      padding: 1rem;
+      border: none;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: black;
+      height: 40px;
+      font-size: 20px;
+      margin-left: 38%;
+      margin-top: 1%;
+    }
+
+    .link-btns {
+      background: none;
+      color: rgb(0, 0, 0);
+      text-decoration: underline;
+      font-weight: bold;
+      margin-top: 5%;
+      margin-left: 42%;
+    }
+
+    .link-btns2 {
+      background: none;
+      color: rgb(0, 0, 0);
+      text-decoration: underline;
+      font-weight: bold;
+      margin-top: 0.5%;
+      margin-left: 47%;
+    }
+
+    .titleSignUp {
+      margin-left: 47%;
+    }

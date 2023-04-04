@@ -1,0 +1,93 @@
+.ProductsPageContainer {
+    /* flex-direction: column; */
+    text-align: center;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    /* padding: 200px 0; */
+    background: #B0C9EA;
+}
+
+.ProductsPageContainer .ProductsPageTop {
+    /* max-width: 500px; */
+    margin: 0 auto;
+}
+
+.ProductsPageContainer .ProductsPageBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.ProductsPageContainer .ProductsPageBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.ProductsPageContainer .ProductsPageBottom .ProductsPageItem {
+    /* flex-basis: 45%; */
+    margin: 2.5%;
+    flex-basis: 25%;
+    margin: 2%;
+    box-shadow: #485563;
+}
+
+.ProductsPageContainer .ProductsPageItem {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1px;
+    border-radius: 10px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease transform;
+}
+
+/* .ProductsPageContainer .ProductsPageItem::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: 0.6;
+    z-index: -1;
+} */
+
+.ProductsPageContainer .ProductsPageItem:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.ProductsPageContainer .ProductsPageItem img {
+    border-radius: 10px;
+    box-shadow: #485563;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 1px;
+    letter-spacing: 0.5rem;
+}
+
+.ProductsPageContainer .underButton {
+    font-size: 300;
+    font-weight: 100;
+    margin-bottom: 5px;
+    letter-spacing: 0.2rem;
+    color: #FDD496;
+    align-items: center;
+    font-family: Judson;
+}
+
+.ProductsPageContainer .underButton .addButton {
+    width: 120px;
+    margin: auto;
+    letter-spacing: 0.2rem;
+    background-color: #FDD496;
+    align-items: center;
+    font-family: Judson;
+}

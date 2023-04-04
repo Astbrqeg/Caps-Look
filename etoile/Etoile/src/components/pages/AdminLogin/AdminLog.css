@@ -1,0 +1,90 @@
+   .login,
+   .signup,
+   .payment,
+   .rev {
+     display: flex;
+     background-color: #B0C9EA;
+     flex-direction: column;
+     height: 100vh;
+   }
+
+
+   input {
+     margin: 0.5rem 0;
+     padding: 1rem;
+     border: none;
+     border-radius: 10px;
+     width: 100%;
+     font-size: 20px;
+     background-color: #ffffff;
+   }
+
+   .input {
+     width: 350px;
+     text-align: center;
+     top: 50%;
+     left: 50%;
+     right: 50%;
+     margin: 0.5rem 0;
+     padding: 1rem;
+     border: none;
+     border-radius: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: black;
+     height: 50px;
+     font-size: 20px;
+     margin-left: 38%;
+     margin-top: 5%;
+   }
+
+
+   .submitd {
+     background-color: #FDD496;
+     color: black;
+     border-radius: 15px;
+     width: 450px;
+     font-weight: bold;
+     font-size: 20px;
+     margin-top: 9px;
+     margin-left: 36%;
+   }
+
+   /* button {
+     border: none;
+     background-color: rgb(0, 0, 0);
+     padding: 20px;
+     cursor: pointer;
+     color: #ffffff;
+     font-family: 'jsMath-cmr10';
+     font-style: normal;
+     font-size: 18px;
+
+   } */
+
+   .link-btn {
+     background: none;
+     color: rgb(0, 0, 0);
+     text-decoration: underline;
+     font-weight: bold;
+     /* margin-top: 10%;
+     margin-left: 46%; */
+   }
+
+   .title {
+     font-family: 'jsMath-cmr10';
+     font-style: normal;
+     color: black;
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     font-size: 42px;
+   }
+
+   .link-btnd {
+     background: none;
+     color: rgb(0, 0, 0);
+     text-decoration: underline;
+     font-weight: bold;
+     margin-top: 5%;
+     margin-left: 45%;
+   }

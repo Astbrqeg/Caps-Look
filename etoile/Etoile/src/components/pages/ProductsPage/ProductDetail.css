@@ -1,0 +1,45 @@
+.prodetcon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #B0C9EA;
+}
+
+
+.o494 {
+    position: relative;
+}
+
+.o494 img {
+    display: block;
+    width: 500px;
+    height: 500px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.oodj9 h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 200px;
+}
+
+.oodj9 h3 {
+    font-size: 25px;
+    margin: 0;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 125px;
+    margin-left: 75px;
+}
+
+.underhhButton {
+    margin-top: 400px;
+    margin-right: 300px;
+}
+
+.addnButton {
+    background-color: #FDD496;
+}

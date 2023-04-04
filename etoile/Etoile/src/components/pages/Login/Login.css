@@ -1,0 +1,141 @@
+.login {
+  /* margin: 0.5rem 0; */
+  padding: 1rem;
+  border: none;
+  /* border-radius: 10px; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  /* width: 800px;
+  height: 50px; */
+  font-size: 20px;
+}
+
+
+.email {
+  width: 300px;
+  margin-top: 0.5%;
+}
+
+.password {
+  width: 300px;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  width: 800px;
+  height: 50px;
+  font-size: 20px;
+
+
+}
+
+.input {
+  width: 350px;
+  text-align: center;
+  /* top: 50%;
+  left: 50%;
+  right: 50%; */
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  height: 50px;
+  font-size: 20px;
+}
+
+.submitLogin {
+
+  background-color: #FDD496;
+  color: black;
+  border-radius: 15px;
+  width: 450px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0.2%;
+
+}
+
+
+.link-btn {
+  background: none;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 5%;
+  /* left: 30%; */
+}
+
+.link-btn2 {
+  background: none;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 2%;
+  /* margin-left: 47%; */
+}
+
+.title {
+  font-family: 'jsMath-cmr10';
+  font-style: normal;
+  color: black;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 42px;
+}
+
+.message {
+  color: red;
+}
+
+.email {
+  width: 350px;
+  text-align: center;
+  /* top: 50%;
+  left: 50%;
+  right: 50%; */
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  height: 40px;
+  font-size: 20px;
+  /* margin-left: 38%; */
+  margin-top: 5%;
+  margin-bottom: 2px;
+}
+
+.password {
+  width: 350px;
+  text-align: center;
+  /* top: 50%;
+  left: 50%; */
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  height: 40px;
+  font-size: 20px;
+  /* margin-left: 38%; */
+  margin-top: 2%;
+}

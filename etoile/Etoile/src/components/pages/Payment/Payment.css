@@ -1,0 +1,100 @@
+.inputs {
+    width: 300px;
+    height: 300px;
+    color: #D9D9D9;
+}
+
+.small {
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.submit{
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 65%;
+    left: 35%;
+}
+
+.title{
+    text-align: center;
+}
+
+
+.first{
+    display: inline;
+    width: 250px;
+    background: #D9D9D9;
+    position: absolute;
+  top: 17%;
+  left: 30%;
+    
+}
+
+
+.last{
+    width: 250px;
+    background: #D9D9D9;
+    display: inline;
+    margin-left: 50px;
+    position: absolute;
+    top: 17%;
+    left: 45%;
+
+}
+
+
+.number{
+    width: 350px;
+    background: #D9D9D9;
+    display: inline;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    
+
+}
+.payment .number::-webkit-outer-spin-button,
+.payment .number::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.expiry{
+    width:175px;
+    background: #D9D9D9;
+    display: inline;
+    margin-left: 30px;
+    position: absolute;
+    top: 30%;
+    left: 53%;
+}
+
+
+.cvv{
+    width: 175px;
+    background: #D9D9D9;
+    position: absolute;
+  top: 43%;
+  left: 30%;
+}
+
+.payment .cvv::-webkit-outer-spin-button,
+.payment .cvv::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.message{
+    position: absolute;
+  top: 60%;
+  left: 43%;
+}
+
+
